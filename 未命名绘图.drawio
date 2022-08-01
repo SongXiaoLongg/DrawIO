@@ -1,38 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2022-07-30T11:37:00.288Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="jl8cFBLfOOzkggoAi4U7" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-01T13:05:18.896Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="07u9hgk4b6z5pJLnm6f1" version="20.2.2" type="github">
   <diagram id="mrwuzQgarnRukt2Ca9zD" name="第 1 页">
     <mxGraphModel dx="1087" dy="598" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="nt_hM3aEsompQMemLYJd-26" value="伙伴系统分区" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="300" width="310" height="100" as="geometry" />
+        <mxCell id="nt_hM3aEsompQMemLYJd-26" value="sda1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="141" y="711" width="310" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="nt_hM3aEsompQMemLYJd-27" value="EdgerOS 分区" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="510" width="310" height="100" as="geometry" />
+        <mxCell id="nt_hM3aEsompQMemLYJd-27" value="sda2" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="449" y="711" width="310" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="nt_hM3aEsompQMemLYJd-28" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="360" width="309" height="40" as="geometry" />
+        <mxCell id="nt_hM3aEsompQMemLYJd-28" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="300" width="412" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="nt_hM3aEsompQMemLYJd-29" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeWidth=1;" vertex="1" parent="nt_hM3aEsompQMemLYJd-28">
-          <mxGeometry width="309" height="40" as="geometry" />
+        <mxCell id="nt_hM3aEsompQMemLYJd-29" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeWidth=1;" parent="nt_hM3aEsompQMemLYJd-28" vertex="1">
+          <mxGeometry width="412" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="nt_hM3aEsompQMemLYJd-30" value="Boot(EFI)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeWidth=1;" vertex="1" parent="nt_hM3aEsompQMemLYJd-29">
-          <mxGeometry width="103" height="40" as="geometry">
-            <mxRectangle width="103" height="40" as="alternateBounds" />
+        <mxCell id="nt_hM3aEsompQMemLYJd-30" value="Boot(EFI)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeWidth=1;" parent="nt_hM3aEsompQMemLYJd-29" vertex="1">
+          <mxGeometry width="206" height="100" as="geometry">
+            <mxRectangle width="206" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nt_hM3aEsompQMemLYJd-31" value="Backup(FAT)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeWidth=1;" vertex="1" parent="nt_hM3aEsompQMemLYJd-29">
-          <mxGeometry x="103" width="103" height="40" as="geometry">
-            <mxRectangle width="103" height="40" as="alternateBounds" />
+        <mxCell id="nt_hM3aEsompQMemLYJd-32" value="System(TpsFS)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeWidth=1;" parent="nt_hM3aEsompQMemLYJd-29" vertex="1">
+          <mxGeometry x="206" width="206" height="100" as="geometry">
+            <mxRectangle width="206" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nt_hM3aEsompQMemLYJd-32" value="System(TpsFS)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeWidth=1;" vertex="1" parent="nt_hM3aEsompQMemLYJd-29">
-          <mxGeometry x="206" width="103" height="40" as="geometry">
-            <mxRectangle width="103" height="40" as="alternateBounds" />
-          </mxGeometry>
+        <mxCell id="UT9z-e5GF_YJN2U2yq1w-5" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;rotation=-90;size=0.5;" vertex="1" parent="1">
+          <mxGeometry x="297.25" y="213.25" width="20" height="407.5" as="geometry" />
         </mxCell>
-        <mxCell id="nt_hM3aEsompQMemLYJd-41" value="EdgerOS 分区" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="300" width="309" height="60" as="geometry" />
+        <mxCell id="UT9z-e5GF_YJN2U2yq1w-6" value="虚拟硬盘分区" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="262.75" y="439" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UT9z-e5GF_YJN2U2yq1w-7" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="421" y="539" width="60" height="618" as="geometry" />
+        </mxCell>
+        <mxCell id="UT9z-e5GF_YJN2U2yq1w-8" value="硬盘分区(sda)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="407" y="874" width="93" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
