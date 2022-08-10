@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-09T10:44:49.178Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="wLjEHwElZcwFfbbcIUkC" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-10T12:08:42.735Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="L-tDfV1MimxLSHukNW4e" version="20.2.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1087" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1087" dy="705" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -86,10 +86,10 @@
         <mxCell id="gS-gUmE_YttaVzdTsZu5-40" value="sync" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="445" y="432" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9X3dWUdTX9as2_ivopGH-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9X3dWUdTX9as2_ivopGH-0" target="9X3dWUdTX9as2_ivopGH-1">
+        <mxCell id="9X3dWUdTX9as2_ivopGH-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9X3dWUdTX9as2_ivopGH-0" target="9X3dWUdTX9as2_ivopGH-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9X3dWUdTX9as2_ivopGH-12" value="从信息管理中心获取&lt;br&gt;差异化配置文件" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.996;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9X3dWUdTX9as2_ivopGH-0" target="9X3dWUdTX9as2_ivopGH-5">
+        <mxCell id="9X3dWUdTX9as2_ivopGH-12" value="从信息管理中心获取&lt;br&gt;差异化配置文件" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.996;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9X3dWUdTX9as2_ivopGH-0" target="9X3dWUdTX9as2_ivopGH-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="548" y="1335" />
@@ -97,35 +97,137 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9X3dWUdTX9as2_ivopGH-0" value="Part 0&lt;br&gt;产品唯一信息管理中心：提供 license 序列号，管理磁盘序列号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="9X3dWUdTX9as2_ivopGH-0" value="Part 0&lt;br&gt;产品唯一信息管理中心：提供 license 序列号，管理磁盘序列号" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="351.5" y="1260" width="120" height="107" as="geometry" />
         </mxCell>
-        <mxCell id="9X3dWUdTX9as2_ivopGH-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9X3dWUdTX9as2_ivopGH-1" target="9X3dWUdTX9as2_ivopGH-3">
+        <mxCell id="9X3dWUdTX9as2_ivopGH-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9X3dWUdTX9as2_ivopGH-1" target="9X3dWUdTX9as2_ivopGH-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9X3dWUdTX9as2_ivopGH-1" value="Part 1&lt;br&gt;硬件准备" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="9X3dWUdTX9as2_ivopGH-1" value="Part 1&lt;br&gt;硬件准备" style="whiteSpace=wrap;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="351" y="1400" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9X3dWUdTX9as2_ivopGH-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9X3dWUdTX9as2_ivopGH-3" target="9X3dWUdTX9as2_ivopGH-5">
+        <mxCell id="9X3dWUdTX9as2_ivopGH-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9X3dWUdTX9as2_ivopGH-3" target="9X3dWUdTX9as2_ivopGH-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9X3dWUdTX9as2_ivopGH-3" value="Part2&lt;br&gt;软件安装" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="9X3dWUdTX9as2_ivopGH-3" value="Part2&lt;br&gt;软件安装" style="whiteSpace=wrap;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="351.5" y="1503" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9X3dWUdTX9as2_ivopGH-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9X3dWUdTX9as2_ivopGH-5" target="9X3dWUdTX9as2_ivopGH-7">
+        <mxCell id="9X3dWUdTX9as2_ivopGH-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9X3dWUdTX9as2_ivopGH-5" target="9X3dWUdTX9as2_ivopGH-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9X3dWUdTX9as2_ivopGH-5" value="Part3&lt;br&gt;产品激活" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="9X3dWUdTX9as2_ivopGH-5" value="Part3&lt;br&gt;产品激活" style="whiteSpace=wrap;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="351.5" y="1617" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9X3dWUdTX9as2_ivopGH-7" value="Part4&lt;br&gt;出厂入库" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="9X3dWUdTX9as2_ivopGH-7" value="Part4&lt;br&gt;出厂入库" style="whiteSpace=wrap;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="351" y="1731" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9X3dWUdTX9as2_ivopGH-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9X3dWUdTX9as2_ivopGH-9" target="9X3dWUdTX9as2_ivopGH-3">
+        <mxCell id="9X3dWUdTX9as2_ivopGH-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9X3dWUdTX9as2_ivopGH-9" target="9X3dWUdTX9as2_ivopGH-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9X3dWUdTX9as2_ivopGH-9" value="生产资料&lt;br&gt;ghost 镜像" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="9X3dWUdTX9as2_ivopGH-9" value="生产资料&lt;br&gt;ghost 镜像" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="207" y="1493" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PrhjTe8jPgMwE5NyQmtl-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PrhjTe8jPgMwE5NyQmtl-1" target="PrhjTe8jPgMwE5NyQmtl-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PrhjTe8jPgMwE5NyQmtl-1" value="安装 Ubuntu18.04" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="590" y="2367" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PrhjTe8jPgMwE5NyQmtl-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PrhjTe8jPgMwE5NyQmtl-3" target="PrhjTe8jPgMwE5NyQmtl-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PrhjTe8jPgMwE5NyQmtl-3" value="部署 ACRN" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="590" y="2507" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PrhjTe8jPgMwE5NyQmtl-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PrhjTe8jPgMwE5NyQmtl-5" target="PrhjTe8jPgMwE5NyQmtl-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PrhjTe8jPgMwE5NyQmtl-5" value="重启计算机" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="590" y="2647" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PrhjTe8jPgMwE5NyQmtl-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PrhjTe8jPgMwE5NyQmtl-9" target="PrhjTe8jPgMwE5NyQmtl-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PrhjTe8jPgMwE5NyQmtl-9" value="启动虚拟机" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="841" y="2367" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PrhjTe8jPgMwE5NyQmtl-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PrhjTe8jPgMwE5NyQmtl-17" target="PrhjTe8jPgMwE5NyQmtl-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PrhjTe8jPgMwE5NyQmtl-17" value="安装 Docker 引擎&lt;br&gt;安装 ECSD" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="590" y="2815" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PrhjTe8jPgMwE5NyQmtl-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PrhjTe8jPgMwE5NyQmtl-19" target="PrhjTe8jPgMwE5NyQmtl-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PrhjTe8jPgMwE5NyQmtl-19" value="在虚拟机中部署 EdgerOS" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="841" y="2507" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PrhjTe8jPgMwE5NyQmtl-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PrhjTe8jPgMwE5NyQmtl-21" target="PrhjTe8jPgMwE5NyQmtl-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PrhjTe8jPgMwE5NyQmtl-21" value="关掉 EdgerOS 虚拟机" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="841" y="2647" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PrhjTe8jPgMwE5NyQmtl-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PrhjTe8jPgMwE5NyQmtl-23" target="PrhjTe8jPgMwE5NyQmtl-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PrhjTe8jPgMwE5NyQmtl-23" value="打包 EdgerOS &lt;br&gt;镜像文件" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="841" y="2815" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PrhjTe8jPgMwE5NyQmtl-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PrhjTe8jPgMwE5NyQmtl-25" target="PrhjTe8jPgMwE5NyQmtl-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PrhjTe8jPgMwE5NyQmtl-25" value="关掉计算机" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1091" y="2367" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PrhjTe8jPgMwE5NyQmtl-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PrhjTe8jPgMwE5NyQmtl-28" target="PrhjTe8jPgMwE5NyQmtl-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PrhjTe8jPgMwE5NyQmtl-28" value="使用 U 盘启动" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1091" y="2504" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PrhjTe8jPgMwE5NyQmtl-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PrhjTe8jPgMwE5NyQmtl-30" target="PrhjTe8jPgMwE5NyQmtl-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PrhjTe8jPgMwE5NyQmtl-30" value="进入 linux live 系统" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1091" y="2647" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PrhjTe8jPgMwE5NyQmtl-35" value="对磁盘的前两个分区做Ghost，生成镜像压缩包" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1091" y="2807" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PrhjTe8jPgMwE5NyQmtl-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PrhjTe8jPgMwE5NyQmtl-37" target="PrhjTe8jPgMwE5NyQmtl-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="542" y="2845" />
+              <mxPoint x="542" y="2349" />
+              <mxPoint x="650" y="2349" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PrhjTe8jPgMwE5NyQmtl-37" value="硬盘分区&lt;br&gt;sda1 ext4 32G&lt;br&gt;sda2 ext4 32M" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="366" y="2819" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PrhjTe8jPgMwE5NyQmtl-40" value="Step 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="780" y="2385" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PrhjTe8jPgMwE5NyQmtl-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PrhjTe8jPgMwE5NyQmtl-41" target="PrhjTe8jPgMwE5NyQmtl-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PrhjTe8jPgMwE5NyQmtl-41" value="制作 Ubuntu &lt;br&gt;启动 U 盘" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="366" y="2367" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PrhjTe8jPgMwE5NyQmtl-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PrhjTe8jPgMwE5NyQmtl-43" target="PrhjTe8jPgMwE5NyQmtl-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PrhjTe8jPgMwE5NyQmtl-43" value="开发计算从 U 盘启动&lt;br&gt;进入安装引导界面" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="366" y="2507" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PrhjTe8jPgMwE5NyQmtl-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PrhjTe8jPgMwE5NyQmtl-45" target="PrhjTe8jPgMwE5NyQmtl-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PrhjTe8jPgMwE5NyQmtl-45" value="选择安装 Ubuntu" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="366" y="2647" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
