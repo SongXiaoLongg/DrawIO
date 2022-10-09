@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-17T05:26:41.916Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="8WSc3eCJVu0sx2TQ0bEW" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-09T12:52:28.784Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="FxR3TYJpPByGQFNA7s7K" version="20.3.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1197" dy="1922" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="912" dy="1682" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -49,28 +49,34 @@
         <mxCell id="PrhjTe8jPgMwE5NyQmtl-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PrhjTe8jPgMwE5NyQmtl-25" target="PrhjTe8jPgMwE5NyQmtl-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PrhjTe8jPgMwE5NyQmtl-25" value="关掉计算机" style="whiteSpace=wrap;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="MXz7jM8ZPH1nH_Cvbntb-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PrhjTe8jPgMwE5NyQmtl-25" target="PrhjTe8jPgMwE5NyQmtl-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PrhjTe8jPgMwE5NyQmtl-25" value="在恢复分区部署Ubuntu 最小根文件系统" style="whiteSpace=wrap;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="595" y="73" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PrhjTe8jPgMwE5NyQmtl-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PrhjTe8jPgMwE5NyQmtl-28" target="PrhjTe8jPgMwE5NyQmtl-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PrhjTe8jPgMwE5NyQmtl-28" value="使用 U 盘启动" style="whiteSpace=wrap;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="PrhjTe8jPgMwE5NyQmtl-28" value="修改 grub，将根文件系统挂载到 sda2" style="whiteSpace=wrap;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="595" y="213" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PrhjTe8jPgMwE5NyQmtl-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PrhjTe8jPgMwE5NyQmtl-30" target="PrhjTe8jPgMwE5NyQmtl-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PrhjTe8jPgMwE5NyQmtl-30" value="进入 linux live 系统" style="whiteSpace=wrap;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="PrhjTe8jPgMwE5NyQmtl-30" value="重启系统，进入 recovery 系统" style="whiteSpace=wrap;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="595" y="353" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PrhjTe8jPgMwE5NyQmtl-35" value="对硬盘的 sda1 分区和sda 2分区做 Ghost，生成镜像压缩包" style="whiteSpace=wrap;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="MXz7jM8ZPH1nH_Cvbntb-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PrhjTe8jPgMwE5NyQmtl-35" target="MXz7jM8ZPH1nH_Cvbntb-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PrhjTe8jPgMwE5NyQmtl-35" value="对硬盘的 sda3 分区做备份" style="whiteSpace=wrap;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="595" y="493" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fR0AjU-S02bJpJfK_koT-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PrhjTe8jPgMwE5NyQmtl-37" target="fR0AjU-S02bJpJfK_koT-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PrhjTe8jPgMwE5NyQmtl-37" value="硬盘分区&lt;br&gt;sda1 ext4 32G&lt;br&gt;sda2 FAT32 32M" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="PrhjTe8jPgMwE5NyQmtl-37" value="硬盘分区&lt;br&gt;sda1 启动分区 4G&lt;br&gt;sda2 恢复分区 8G&lt;br&gt;sda3 Ubuntu分区32G" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="52" y="353" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PrhjTe8jPgMwE5NyQmtl-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PrhjTe8jPgMwE5NyQmtl-41" target="PrhjTe8jPgMwE5NyQmtl-43" edge="1">
@@ -88,7 +94,7 @@
         <mxCell id="fR0AjU-S02bJpJfK_koT-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fR0AjU-S02bJpJfK_koT-25" target="fR0AjU-S02bJpJfK_koT-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fR0AjU-S02bJpJfK_koT-25" value="安装 Ubuntu18.04" style="whiteSpace=wrap;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="fR0AjU-S02bJpJfK_koT-25" value="安装 Ubuntu18.04到&lt;br&gt;sda3 分区" style="whiteSpace=wrap;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="52" y="493" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fR0AjU-S02bJpJfK_koT-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fR0AjU-S02bJpJfK_koT-29" target="PrhjTe8jPgMwE5NyQmtl-3" edge="1">
@@ -102,8 +108,8 @@
         </mxCell>
         <mxCell id="fR0AjU-S02bJpJfK_koT-42" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="732" y="559" as="sourcePoint" />
-            <mxPoint x="736" as="targetPoint" />
+            <mxPoint x="740" y="559" as="sourcePoint" />
+            <mxPoint x="744" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fR0AjU-S02bJpJfK_koT-43" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
@@ -139,8 +145,38 @@
         <mxCell id="fR0AjU-S02bJpJfK_koT-50" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;安装 EdgerOS&amp;nbsp;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="403" y="7" width="137" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="fR0AjU-S02bJpJfK_koT-51" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Ghost&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="fR0AjU-S02bJpJfK_koT-51" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;备份 Ubuntu&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="573" y="7" width="137" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="MXz7jM8ZPH1nH_Cvbntb-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MXz7jM8ZPH1nH_Cvbntb-1" target="MXz7jM8ZPH1nH_Cvbntb-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MXz7jM8ZPH1nH_Cvbntb-1" value="关掉计算机" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="793" y="73" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MXz7jM8ZPH1nH_Cvbntb-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MXz7jM8ZPH1nH_Cvbntb-3" target="MXz7jM8ZPH1nH_Cvbntb-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MXz7jM8ZPH1nH_Cvbntb-3" value="使用 U 盘启动" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="793" y="213" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MXz7jM8ZPH1nH_Cvbntb-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MXz7jM8ZPH1nH_Cvbntb-5" target="MXz7jM8ZPH1nH_Cvbntb-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MXz7jM8ZPH1nH_Cvbntb-5" value="进入 linux live 系统" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="793" y="353" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MXz7jM8ZPH1nH_Cvbntb-6" value="对硬盘的 sda1 分区和sda 2分区做 Ghost，生成镜像压缩包" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="793" y="493" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MXz7jM8ZPH1nH_Cvbntb-8" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="926" y="559" as="sourcePoint" />
+            <mxPoint x="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MXz7jM8ZPH1nH_Cvbntb-9" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Ghost&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="784.5" y="7" width="137" height="42" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
