@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-06T12:39:06.684Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="cuZiAs7eLQFvFU6PQUnD" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-06T14:59:27.897Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="PWI-NsfnXQMTynlNqYyO" version="24.0.2" type="github">
   <diagram name="第 1 页" id="1dXNIjqomakK2E_-Wu3f">
     <mxGraphModel dx="3531" dy="622" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -17,7 +17,7 @@
           <mxGeometry x="308.5" y="564" width="263" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yzZIrOnsQKPowUjHJJeK-5" value="TPM" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="308.5" y="684" width="60" height="60" as="geometry" />
+          <mxGeometry x="511.5" y="684" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yzZIrOnsQKPowUjHJJeK-8" value="RTS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="308.5" y="564" width="128" height="61" as="geometry" />
@@ -46,8 +46,8 @@
         <mxCell id="yzZIrOnsQKPowUjHJJeK-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-77" y="478" width="339.5" height="146" as="geometry" />
         </mxCell>
-        <mxCell id="yzZIrOnsQKPowUjHJJeK-19" value="IDE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="62.75" y="483" width="60" height="30" as="geometry" />
+        <mxCell id="yzZIrOnsQKPowUjHJJeK-19" value="寂山智工IDE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="34.5" y="491" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yzZIrOnsQKPowUjHJJeK-23" value="运动控制库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-65" y="537" width="102" height="48" as="geometry" />
